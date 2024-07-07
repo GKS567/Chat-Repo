@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import "./chatList.css";
 function ChatList() {
+  const [addMode, setAddMode] = useState(false);
+  console.log(addMode);
   return (
     <div className="chatlist">
       <div className="search">
@@ -8,7 +10,12 @@ function ChatList() {
           <img src="./search.png" alt="search" />
           <input type="text" className="searchInput" placeholder="Search" />
         </div>
-        <img src="./plus.png" className="add" />
+        <img
+          onClick={() => setAddMode((prev) => !prev)}
+          alt="add"
+          src={`${addMode ? "./minus.png" : "./plus.png"}`}
+          className="add"
+        />
       </div>
     </div>
   );
