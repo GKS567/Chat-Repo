@@ -2,6 +2,7 @@
   display: flex;
   gap: 20px;
   padding: 20px;
+  /* searchbar */
   .searchBar {
     display: flex;
     align-items: center;
@@ -9,6 +10,7 @@
     flex: 1;
     background-color: rgba(17, 25, 40, 0.75);
     border-radius: 10px;
+    /* input */
     input {
       background-color: transparent;
       border: none;
@@ -16,19 +18,20 @@
       color: white;
       flex: 1;
     }
-
+    /* searchBar img */
     img {
       width: 25px;
       height: 25px;
     }
   }
+  /* add button Img */
   .add {
     width: 40px;
     height: 44px;
     border-radius: 10px;
     padding: 10px;
     cursor: pointer;
-    
+
     background-color: rgba(17, 25, 40, 0.75);
   }
 }
