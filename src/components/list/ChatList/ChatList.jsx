@@ -17,6 +17,7 @@ function ChatList() {
           className="add"
         />
       </div>
+      <div className="item"></div>
     </div>
   );
 }
