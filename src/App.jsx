@@ -5,8 +5,8 @@ import List from "./components/list/List"
 const App = () => {
   return (
     <div className='container'>
-      <Chat />
       <List />
+      <Chat />
       <Detail />
     </div>
   )
