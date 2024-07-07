@@ -5,8 +5,8 @@ function ChatList() {
     <div className="chatlist">
       <div className="search">
         <div className="searchBar">
-          <input type="text" className="searchInput" placeholder="Search" />
           <img src="./search.png" alt="search" />
+          <input type="text" className="searchInput" placeholder="Search" />
         </div>
         <img src="./plus.png" className="add" />
       </div>
