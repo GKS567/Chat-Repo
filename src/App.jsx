@@ -1,7 +1,6 @@
 const App = () => {
   return (
-    <div className=''>Apdfsasd
-    gtkp</div>
+    <div className='container'>ap</div>
   )
 }
 
