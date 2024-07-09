@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./chatList.css";
+import AddUser from "./addUser/AddUser";
 
 function ChatList() {
   const [addMode, setAddMode] = useState(false);
@@ -38,6 +39,70 @@ function ChatList() {
           <p>Hello</p>
         </div>
       </div>
+      <div className="item">
+        <img src="./avatar.png" alt="" />
+        <div className="texts">
+          <span>John Doe</span>
+          <p>Hello</p>
+        </div>
+      </div>
+      <div className="item">
+        <img src="./avatar.png" alt="" />
+        <div className="texts">
+          <span>John Doe</span>
+          <p>Hello</p>
+        </div>
+      </div>
+      <div className="item">
+        <img src="./avatar.png" alt="" />
+        <div className="texts">
+          <span>John Doe</span>
+          <p>Hello</p>
+        </div>
+      </div>
+      <div className="item">
+        <img src="./avatar.png" alt="" />
+        <div className="texts">
+          <span>John Doe</span>
+          <p>Hello</p>
+        </div>
+      </div>
+      <div className="item">
+        <img src="./avatar.png" alt="" />
+        <div className="texts">
+          <span>John Doe</span>
+          <p>Hello</p>
+        </div>
+      </div>
+      <div className="item">
+        <img src="./avatar.png" alt="" />
+        <div className="texts">
+          <span>John Doe</span>
+          <p>Hello</p>
+        </div>
+      </div>
+      <div className="item">
+        <img src="./avatar.png" alt="" />
+        <div className="texts">
+          <span>John Doe</span>
+          <p>Hello</p>
+        </div>
+      </div>
+      <div className="item">
+        <img src="./avatar.png" alt="" />
+        <div className="texts">
+          <span>John Doe</span>
+          <p>Hello</p>
+        </div>
+      </div>
+      <div className="item">
+        <img src="./avatar.png" alt="" />
+        <div className="texts">
+          <span>John Doe</span>
+          <p>Hello</p>
+        </div>
+      </div>
+      {addMode && <AddUser />}
     </div>
   );
 }

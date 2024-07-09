@@ -4,8 +4,14 @@
   box-sizing: border-box;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  scrollbar-width: none; /* Firefox only: remove scrollbar space */
+  -ms-overflow-style: none; /* IE 10+ */
 }
-
+/* For Webkit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
 body {
   background-image: url("/bg.jpg");
   display: flex;
@@ -16,7 +22,7 @@ body {
 }
 
 .container {
-  width: 90vw;
+  width: 80vw;
   height: 90vh;
   background-color: rgba(17, 25, 40, 0.75);
   backdrop-filter: blur(19px) saturate(180%);
