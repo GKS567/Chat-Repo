@@ -33,10 +33,10 @@
     .add {
       width: 36px;
       height: 36px;
-      cursor: pointer;
       background-color: rgba(17, 25, 40, 0.5);
       padding: 10px;
       border-radius: 10px;
+      cursor: pointer;
     }
   }
 
@@ -54,8 +54,8 @@
       border-radius: 50%;
       object-fit: cover;
     }
+
     .texts {
-      flex: 1;
       display: flex;
       flex-direction: column;
       gap: 10px;
@@ -63,6 +63,7 @@
       span {
         font-weight: 500;
       }
+
       p {
         font-size: 14px;
         font-weight: 300;
